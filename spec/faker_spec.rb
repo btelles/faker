@@ -1,7 +1,7 @@
 require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 
 describe "Faker" do
-  it "fails" do
-    fail "hey buddy, you should probably rename this file and start specing for real"
+  it 'should numerify strings with #s' do
+    Faker.numerify('###').should match(/\d{3}/)
   end
 end
