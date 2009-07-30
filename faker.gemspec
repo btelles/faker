@@ -15,8 +15,12 @@ Gem::Specification.new do |s|
   ]
   s.files = [
     "History.txt",
+     "LICENSE",
      "License.txt",
+     "README.rdoc",
      "Rakefile",
+     "VERSION",
+     "faker.gemspec",
      "lib/extensions/array.rb",
      "lib/extensions/object.rb",
      "lib/faker.rb",
@@ -27,6 +31,8 @@ Gem::Specification.new do |s|
      "lib/faker/name.rb",
      "lib/faker/phone_number.rb",
      "lib/faker/version.rb",
+     "spec/faker_spec.rb",
+     "spec/spec_helper.rb",
      "test/test_faker.rb",
      "test/test_faker_internet.rb",
      "test/test_faker_name.rb",
