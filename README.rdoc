@@ -8,12 +8,14 @@ This was originally a port of Perl's Data::Faker library that generates fake dat
 == Installation 
 
 To install use:
-  gem install btelles-faker
+  gem install btelles-faker -s http://gems.github.com
 
 == Usage
-* Faker::Name.name => "Christophe Bartell"
+  require 'faker'
+ 
+  Faker::Name.name => "Christophe Bartell"
 
-* Faker::Internet.email => "kirsten.greenholt@corkeryfisher.info"
+  Faker::Internet.email => "kirsten.greenholt@corkeryfisher.info"
 
 == Note on Patches/Pull Requests
  
