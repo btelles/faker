@@ -5,6 +5,11 @@ A fork of Benjamin Curtis' Faker gem (http://faker.rubyforge.org/) with a few mo
 
 This was originally a port of Perl's Data::Faker library that generates fake data.
 
+== Installation 
+
+To install use:
+  gem install btelles-faker
+
 == Usage
 * Faker::Name.name => "Christophe Bartell"
 
