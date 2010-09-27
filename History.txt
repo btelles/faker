@@ -1,3 +1,6 @@
+== 0.4.1 2010-09-27
+* Removed use of returning per Jean Martin's request
+
 == 0.3.1 2008-04-03
 * 1 minor enhancement:
   * Added city to Address
